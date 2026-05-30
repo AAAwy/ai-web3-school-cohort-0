@@ -1,0 +1,32 @@
+1. 協作工具選型與任務
+選擇工具：Zoom、Telegram、Google Calendar
+
+應用任務：
+
+Zoom：用於參與每週的實時線上課程、Office Hours 以及團隊同步會議。
+
+Telegram：用於加入課程官方社群、接收即時公告，並與導師或其他學員進行非同步的技術交流與問題排查。
+
+Google Calendar：用於訂閱課程時間表，設定上課與課後作業截止日期的提醒，確保時間管理不衝突。
+
+2. AI 工具選型與任務
+選擇工具：Cursor + Claude 3.5 Sonnet API
+
+應用任務：
+
+代碼生成與重構：利用 Cursor 作為主要編輯器，在編寫 Web3 前端或智能合約時，進行自動代碼補全與架構優化。
+
+智能合約審計輔助：在撰寫 Solidity 程式碼時，交由 AI 快速檢視潛在的邏輯漏洞或重入攻擊（Reentrancy）風險。
+
+技術文檔解讀：快速總結 Week 1 涉及的複雜協議文檔或 API 使用說明。
+
+3. Web3 工具選型與任務
+選擇工具：MetaMask（測試錢包/瀏覽器插件）、Etherscan (Sepolia)（区块浏览器）、Foundry（開發框架）
+
+應用任務：
+
+MetaMask：作為本地與瀏覽器端的身份驗證與簽名工具，切換至 Sepolia 等測試網路，並領取測試幣（Faucet）以備後續互動。
+
+Sepolia Etherscan：用於查詢交易狀態、追蹤 Gas 消耗，以及驗證與查看已部署的合約原始碼與日誌。
+
+Foundry：作為核心開發與測試框架。利用其編譯速度快（Rust 基礎）的特性，執行合約編譯、撰寫 Solidity 單元測試（Unit Tests），並透過其中的 Anvil 啟動本地測試私鏈。
